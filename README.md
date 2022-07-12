@@ -20,11 +20,11 @@
     If you have higher version node installed on your machine then run the following code
     ```console
     
-    nvm use 14
+    nvm use 16
     ```
     This will switch your terminal to use nodejs version 7. You can check that using the following command.
     ```
-    node -v  #should print  v14.x.x^
+    node -v  #should print  v16.x.x^
     ```
         
     To set it as by default follow these
