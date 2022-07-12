@@ -1,0 +1,159 @@
+[debug] [2022-07-12T14:04:27.540Z] ----------------------------------------------------------------------
+[debug] [2022-07-12T14:04:27.545Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\chand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-07-12T14:04:27.546Z] CLI Version:   11.2.0
+[debug] [2022-07-12T14:04:27.546Z] Platform:      win32
+[debug] [2022-07-12T14:04:27.547Z] Node Version:  v16.15.1
+[debug] [2022-07-12T14:04:27.565Z] Time:          Tue Jul 12 2022 19:34:27 GMT+0530 (India Standard Time)
+[debug] [2022-07-12T14:04:27.566Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-12T14:04:29.298Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-12T14:04:29.299Z] > authorizing via signed-in user (chandwanieshita06@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-07-12T14:04:29.434Z] [hub] writing locator at C:\Users\chand\AppData\Local\Temp\hub-chocoplanet-9332b.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-07-12T14:04:29.598Z] defaultcredentials: writing to file C:\Users\chand\AppData\Roaming\firebase\chandwanieshita06_gmail_com_application_default_credentials.json
+[debug] [2022-07-12T14:04:29.608Z] Setting GAC to C:\Users\chand\AppData\Roaming\firebase\chandwanieshita06_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\chand\\AppData\\Roaming\\firebase\\chandwanieshita06_gmail_com_application_default_credentials.json"}}
+[debug] [2022-07-12T14:04:29.611Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chocoplanet-9332b/adminSdkConfig [none]
+[debug] [2022-07-12T14:04:30.670Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chocoplanet-9332b/adminSdkConfig 200
+[debug] [2022-07-12T14:04:30.671Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chocoplanet-9332b/adminSdkConfig {"projectId":"chocoplanet-9332b","storageBucket":"chocoplanet-9332b.appspot.com","locationId":"us-central"}
+[debug] [2022-07-12T14:04:30.686Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chocoplanet-9332b/sites 
+[debug] [2022-07-12T14:04:33.232Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chocoplanet-9332b/sites 200
+[debug] [2022-07-12T14:04:33.234Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chocoplanet-9332b/sites {"sites":[{"name":"projects/chocoplanet-9332b/sites/chocoplanet-9332b","defaultUrl":"https://chocoplanet-9332b.web.app","appId":"1:1017421104298:web:9d73c18452eca83c68bcd3","type":"DEFAULT_SITE"}]}
+[debug] [2022-07-12T14:04:33.235Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chocoplanet-9332b/webApps/1:1017421104298:web:9d73c18452eca83c68bcd3/config [none]
+[debug] [2022-07-12T14:04:34.857Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chocoplanet-9332b/webApps/1:1017421104298:web:9d73c18452eca83c68bcd3/config 200
+[debug] [2022-07-12T14:04:34.857Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chocoplanet-9332b/webApps/1:1017421104298:web:9d73c18452eca83c68bcd3/config {"projectId":"chocoplanet-9332b","appId":"1:1017421104298:web:9d73c18452eca83c68bcd3","storageBucket":"chocoplanet-9332b.appspot.com","locationId":"us-central","apiKey":"AIzaSyC1RmrrU0zg5eQiUe7M-FtPafMVgYrprkw","authDomain":"chocoplanet-9332b.firebaseapp.com","messagingSenderId":"1017421104298","measurementId":"G-SH109YHWBR"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-07-12T14:04:34.957Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-07-12T14:04:34.957Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-07-12T14:04:34.957Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","C:\\Users\\chand\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"C:\\\\Users\\\\chand\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-07-12T14:04:35.271Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "F:\chocopanet website\chocoplanet\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"F:\\chocopanet website\\chocoplanet\\functions\" for Cloud Functions..."}}
+[debug] [2022-07-12T14:04:35.555Z] Validating nodejs source
+[debug] [2022-07-12T14:04:41.634Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-07-12T14:04:41.635Z] Building nodejs source
+[debug] [2022-07-12T14:04:41.635Z] Analyzing nodejs backend spec
+[debug] [2022-07-12T14:04:41.637Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-07-12T14:04:43.400Z] Serving at port 9005
+
+[debug] [2022-07-12T14:04:44.764Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-07-12T14:04:44.777Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/chocoplanet-9332b/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/chocoplanet-9332b/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-07-12T14:20:04.790Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-07-12T14:20:04.835Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-07-12T14:20:04.848Z] Accepted request POST /chocoplanet-9332b/us-central1/api/payments/create?total=170000 --> us-central1-api
+[debug] [2022-07-12T14:20:05.257Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-07-12T14:20:05.259Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-07-12T14:20:05.259Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-07-12T14:20:05.264Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: Assigning socketPath: \\?\pipe\F:\chocopanet website\chocoplanet\functions\1720 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: Assigning socketPath: \\\\?\\pipe\\F:\\chocopanet website\\chocoplanet\\functions\\1720"}}
+[debug] [2022-07-12T14:20:05.269Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: BUSY"}}
+[debug] [2022-07-12T14:20:13.173Z] [runtime-status] [1720] Functions runtime initialized. {"cwd":"F:\\chocopanet website\\chocoplanet\\functions","node_version":"16.15.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Functions runtime initialized. {\"cwd\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\",\"node_version\":\"16.15.1\"}"}}
+[debug] [2022-07-12T14:20:13.179Z] [runtime-status] [1720] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Disabled runtime features: undefined"}}
+[debug] [2022-07-12T14:20:13.308Z] [runtime-status] [1720] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-07-12T14:20:13.346Z] [runtime-status] [1720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-07-12T14:20:13.357Z] [runtime-status] [1720] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-07-12T14:20:13.357Z] [runtime-status] [1720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-07-12T14:20:14.316Z] [runtime-status] [1720] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-07-12T14:20:14.319Z] [runtime-status] [1720] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.22.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-07-12T14:20:14.321Z] [runtime-status] [1720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-07-12T14:20:14.329Z] [runtime-status] [1720] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-07-12T14:20:14.333Z] [runtime-status] [1720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.22.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.22.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-07-12T14:20:14.338Z] [runtime-status] [1720] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"F:\\chocopanet website\\chocoplanet\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"F:\\\\chocopanet website\\\\chocoplanet\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-07-12T14:20:16.059Z] [runtime-status] [1720] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-07-12T14:20:16.109Z] [runtime-status] [1720] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Running api in signature http"}}
+[debug] [2022-07-12T14:20:16.114Z] [runtime-status] [1720] Attempting to listen to socketPath: \\?\pipe\F:\chocopanet website\chocoplanet\functions\1720 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\chocopanet website\\chocoplanet\\functions\\1720"}}
+[debug] [2022-07-12T14:20:16.257Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-07-12T14:20:16.272Z] [functions] Got req.url=/chocoplanet-9332b/us-central1/api/payments/create?total=170000, mapping to path=/payments/create?total=170000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/chocoplanet-9332b/us-central1/api/payments/create?total=170000, mapping to path=/payments/create?total=170000"}}
+[debug] [2022-07-12T14:20:16.294Z] [runtime-status] [1720] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Ephemeral server handling POST request"}}
+[info] >  Payment request recieved >>>  170000 {"user":"Payment request recieved >>>  170000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request recieved >>>  170000"}}
+[debug] [2022-07-12T14:20:16.353Z] [runtime-status] [1720] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~2s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~2s"}}
+[debug] [2022-07-12T14:20:18.541Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: IDLE"}}
+[debug] [2022-07-12T14:20:18.541Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-07-12T14:25:34.332Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-07-12T14:25:34.334Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-07-12T14:25:34.334Z] Accepted request POST /chocoplanet-9332b/us-central1/api/payments/create?total=180000 --> us-central1-api
+[debug] [2022-07-12T14:25:34.334Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-07-12T14:25:34.335Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: Assigning socketPath: \\?\pipe\F:\chocopanet website\chocoplanet\functions\1720 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: Assigning socketPath: \\\\?\\pipe\\F:\\chocopanet website\\chocoplanet\\functions\\1720"}}
+[debug] [2022-07-12T14:25:34.335Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: BUSY"}}
+[debug] [2022-07-12T14:25:34.337Z] [runtime-status] [1720] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-07-12T14:25:34.339Z] [runtime-status] [1720] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Running api in signature http"}}
+[debug] [2022-07-12T14:25:34.340Z] [runtime-status] [1720] Attempting to listen to socketPath: \\?\pipe\F:\chocopanet website\chocoplanet\functions\1720 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\chocopanet website\\chocoplanet\\functions\\1720"}}
+[debug] [2022-07-12T14:25:34.358Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-07-12T14:25:34.360Z] [functions] Got req.url=/chocoplanet-9332b/us-central1/api/payments/create?total=180000, mapping to path=/payments/create?total=180000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/chocoplanet-9332b/us-central1/api/payments/create?total=180000, mapping to path=/payments/create?total=180000"}}
+[debug] [2022-07-12T14:25:34.363Z] [runtime-status] [1720] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Ephemeral server handling POST request"}}
+[info] >  Payment request recieved >>>  180000 {"user":"Payment request recieved >>>  180000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request recieved >>>  180000"}}
+[debug] [2022-07-12T14:25:34.367Z] [runtime-status] [1720] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-07-12T14:25:35.143Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: IDLE"}}
+[debug] [2022-07-12T14:25:35.144Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-07-12T14:35:22.442Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-07-12T14:35:22.453Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-07-12T14:35:22.454Z] Accepted request POST /chocoplanet-9332b/us-central1/api/payments/create?total=65000 --> us-central1-api
+[debug] [2022-07-12T14:35:22.457Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-07-12T14:35:22.459Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: Assigning socketPath: \\?\pipe\F:\chocopanet website\chocoplanet\functions\1720 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: Assigning socketPath: \\\\?\\pipe\\F:\\chocopanet website\\chocoplanet\\functions\\1720"}}
+[debug] [2022-07-12T14:35:22.459Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: BUSY"}}
+[debug] [2022-07-12T14:35:22.497Z] [runtime-status] [1720] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-07-12T14:35:22.503Z] [runtime-status] [1720] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Running api in signature http"}}
+[debug] [2022-07-12T14:35:22.509Z] [runtime-status] [1720] Attempting to listen to socketPath: \\?\pipe\F:\chocopanet website\chocoplanet\functions\1720 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\chocopanet website\\chocoplanet\\functions\\1720"}}
+[debug] [2022-07-12T14:35:22.535Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-07-12T14:35:22.536Z] [functions] Got req.url=/chocoplanet-9332b/us-central1/api/payments/create?total=65000, mapping to path=/payments/create?total=65000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/chocoplanet-9332b/us-central1/api/payments/create?total=65000, mapping to path=/payments/create?total=65000"}}
+[debug] [2022-07-12T14:35:22.555Z] [runtime-status] [1720] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Ephemeral server handling POST request"}}
+[info] >  Payment request recieved >>>  65000 {"user":"Payment request recieved >>>  65000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request recieved >>>  65000"}}
+[debug] [2022-07-12T14:35:22.584Z] [runtime-status] [1720] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1720] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-07-12T14:35:23.854Z] [worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-74dca10a-0ef4-4c13-a5a3-d427d7d4858b]: IDLE"}}
+[debug] [2022-07-12T14:35:23.856Z] [work-queue] {"queueLength":0,"workRunningCount":0}
